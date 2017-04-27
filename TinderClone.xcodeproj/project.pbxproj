@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		39D082471EB1955A001D832F /* DraggableImageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39D082461EB1955A001D832F /* DraggableImageView.xib */; };
 		39FB63EE1EB1876D001BAA8F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39FB63ED1EB1876D001BAA8F /* AppDelegate.swift */; };
 		39FB63F01EB1876D001BAA8F /* CardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39FB63EF1EB1876D001BAA8F /* CardsViewController.swift */; };
 		39FB63F31EB1876D001BAA8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39FB63F11EB1876D001BAA8F /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		39D082461EB1955A001D832F /* DraggableImageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DraggableImageView.xib; sourceTree = "<group>"; };
 		39FB63EA1EB1876D001BAA8F /* TinderClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TinderClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		39FB63ED1EB1876D001BAA8F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		39FB63EF1EB1876D001BAA8F /* CardsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsViewController.swift; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 			children = (
 				39FB63ED1EB1876D001BAA8F /* AppDelegate.swift */,
 				39FB63FF1EB18BCE001BAA8F /* DraggableImageView.swift */,
+				39D082461EB1955A001D832F /* DraggableImageView.xib */,
 				39FB63EF1EB1876D001BAA8F /* CardsViewController.swift */,
 				39FB63F11EB1876D001BAA8F /* Main.storyboard */,
 				39FB63F41EB1876D001BAA8F /* Assets.xcassets */,
@@ -129,6 +132,7 @@
 			files = (
 				39FB63F81EB1876D001BAA8F /* LaunchScreen.storyboard in Resources */,
 				39FB63F51EB1876D001BAA8F /* Assets.xcassets in Resources */,
+				39D082471EB1955A001D832F /* DraggableImageView.xib in Resources */,
 				39FB63F31EB1876D001BAA8F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -306,6 +310,7 @@
 				39FB63FE1EB1876D001BAA8F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

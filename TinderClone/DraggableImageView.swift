@@ -10,7 +10,7 @@ import UIKit
 
 class DraggableImageView: UIView {
 
-    @IBOutlet weak var imageView: UIImageView!
+    @IBOutlet weak var cardView: UIImageView!
     @IBOutlet var contentView: UIView!
     
     required init(coder aDecoder: NSCoder) {
@@ -33,10 +33,10 @@ class DraggableImageView: UIView {
     }
     
     var image: UIImage? {
-        get { return imageView.image }
+        get { return cardView.image }
         
         set {
-            self.imageView.image = newValue
+            self.cardView.image = newValue
         }
     }
 }

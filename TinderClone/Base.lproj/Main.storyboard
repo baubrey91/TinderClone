@@ -25,25 +25,26 @@
                                 <rect key="frame" x="0.0" y="559" width="375" height="108"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="ryan" id="grm-RO-yyu">
-                                <rect key="frame" x="35" y="136" width="304" height="304"/>
+                            <view contentMode="scaleToFill" misplaced="YES" id="whB-7I-Jcq" customClass="DraggableImageView" customModule="TinderClone" customModuleProvider="target">
+                                <rect key="frame" x="35" y="151" width="304" height="304"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.25098039220000001" green="0.59999999999999998" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <gestureRecognizers/>
                                 <connections>
-                                    <outletCollection property="gestureRecognizers" destination="hHi-SA-1mD" appends="YES" id="BbR-M5-uBX"/>
+                                    <outletCollection property="gestureRecognizers" destination="hHi-SA-1mD" appends="YES" id="brn-tT-JPz"/>
                                 </connections>
-                            </imageView>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <connections>
-                        <outlet property="imageView" destination="grm-RO-yyu" id="vh1-za-fem"/>
+                        <outlet property="imageView" destination="whB-7I-Jcq" id="6Hs-IF-xE6"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <panGestureRecognizer minimumNumberOfTouches="1" id="hHi-SA-1mD">
                     <connections>
-                        <action selector="onPanGesture:" destination="BYZ-38-t0r" id="PGO-tF-bqh"/>
+                        <action selector="onPanGesture:" destination="BYZ-38-t0r" id="EcD-20-UdI"/>
                     </connections>
                 </panGestureRecognizer>
             </objects>
@@ -53,7 +54,6 @@
     <resources>
         <image name="action_buttons" width="320" height="108"/>
         <image name="nav_bar" width="320" height="65"/>
-        <image name="ryan" width="449" height="514"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
